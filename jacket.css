@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+img {
+    width: 40%;
+    /* margin: 1.66666%; */
+    margin: calc(10%/2);
+    position: relative;
+}
+nav {
+    text-transform: uppercase;
+    border-bottom: 2px solid silver;
+    width: 10%;
+    margin-left:  calc(10%/6);
+    padding: 1.1em 0;
+    font-family: lato, monospace;
+    font-size: 1.3em;
+}
+img:hover {
+    transform: scale(1.2);
+    opacity: 55%;
+}
+* {
+    background-color: whitesmoke;
+}
+nav:hover {
+    transform: scale(1.1);
+}
